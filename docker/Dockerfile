@@ -7,6 +7,7 @@ RUN apk add --no-cache \
   ca-certificates \
   composer \
   nginx \
+  npm \
   php81 \
   php81-curl \
   php81-dom \
@@ -17,6 +18,12 @@ RUN apk add --no-cache \
   php81-mbstring \
   php81-openssl \
   php81-phar \
+  php81-pdo_dblib \
+  php81-pdo \
+  php81-pdo_odbc \
+  php81-pdo_mysql \
+  php81-pdo_pgsql \
+  php81-pdo_sqlite \
   php81-session \
   php81-tokenizer \
   php81-xml \
